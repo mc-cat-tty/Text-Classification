@@ -1,4 +1,9 @@
 dataset/
+!dataset/Canadian_Parliament_Debates/hansard.36.2.house.debates.058
+!dataset/Happiness/f0.txt
+!dataset/Reuters/reut2-000.sgm
+!dataset/Reviews/2
+
 venv/
 .idea/
 .git/
