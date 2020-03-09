@@ -1,4 +1,4 @@
-dataset/Canadian_Parliament_Debates/*
+dataset/*
 
 dataset/Happiness/*
 !dataset/Happiness/f0.txt
