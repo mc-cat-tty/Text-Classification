@@ -1,7 +1,6 @@
 dataset/Canadian_Parliament_Debates/*
 !dataset/Canadian_Parliament_Debates/hansard.36.2.house.debates.058
 
-
 dataset/Happiness/*
 !dataset/Happiness/f0.txt
 
