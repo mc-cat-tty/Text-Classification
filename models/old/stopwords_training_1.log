@@ -1,0 +1,348 @@
+INFO | 03/06/2020 09:28:51 PM Starting stopwords training
+INFO | 03/06/2020 09:28:51 PM File "dataset/Reuters/README.txt" opened
+INFO | 03/06/2020 09:28:51 PM File "dataset/Reuters/README.txt" read
+INFO | 03/06/2020 09:28:51 PM Counting words occurrences
+INFO | 03/06/2020 09:28:51 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:28:51 PM RawText object initialized using text starting with "
+    ..."
+INFO | 03/06/2020 09:28:51 PM Cleaning text at level "40"
+INFO | 03/06/2020 09:28:51 PM CleanedText object initialized using "40" as cleaning level
+INFO | 03/06/2020 09:28:51 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 09:28:51 PM Counting words occurrences
+INFO | 03/06/2020 09:28:51 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:28:51 PM AbstractText object initialized
+INFO | 03/06/2020 09:28:51 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 09:28:51 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:28:51 PM File "dataset/Reuters/reut2-000.sgm" opened
+INFO | 03/06/2020 09:28:51 PM File "dataset/Reuters/reut2-000.sgm" read
+INFO | 03/06/2020 09:28:51 PM Counting words occurrences
+INFO | 03/06/2020 09:29:52 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:29:52 PM RawText object initialized using text starting with "
+
+26-..."
+INFO | 03/06/2020 09:29:52 PM Cleaning text at level "40"
+INFO | 03/06/2020 09:30:01 PM CleanedText object initialized using "40" as cleaning level
+INFO | 03/06/2020 09:30:01 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 09:30:01 PM Counting words occurrences
+INFO | 03/06/2020 09:30:27 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:30:27 PM AbstractText object initialized
+INFO | 03/06/2020 09:30:27 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 09:30:27 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:30:27 PM File "dataset/Reuters/reut2-001.sgm" opened
+INFO | 03/06/2020 09:30:27 PM File "dataset/Reuters/reut2-001.sgm" read
+INFO | 03/06/2020 09:30:27 PM Counting words occurrences
+INFO | 03/06/2020 09:31:37 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:31:37 PM RawText object initialized using text starting with "
+
+ 3-..."
+INFO | 03/06/2020 09:31:37 PM Cleaning text at level "40"
+INFO | 03/06/2020 09:31:48 PM CleanedText object initialized using "40" as cleaning level
+INFO | 03/06/2020 09:31:48 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 09:31:48 PM Counting words occurrences
+INFO | 03/06/2020 09:32:24 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:32:24 PM AbstractText object initialized
+INFO | 03/06/2020 09:32:24 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 09:32:24 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:32:24 PM File "dataset/Reuters/reut2-002.sgm" opened
+INFO | 03/06/2020 09:32:24 PM File "dataset/Reuters/reut2-002.sgm" read
+INFO | 03/06/2020 09:32:24 PM Counting words occurrences
+INFO | 03/06/2020 09:33:30 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:33:30 PM RawText object initialized using text starting with "
+
+ 5-..."
+INFO | 03/06/2020 09:33:30 PM Cleaning text at level "40"
+INFO | 03/06/2020 09:33:36 PM CleanedText object initialized using "40" as cleaning level
+INFO | 03/06/2020 09:33:36 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 09:33:36 PM Counting words occurrences
+INFO | 03/06/2020 09:34:04 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:34:04 PM AbstractText object initialized
+INFO | 03/06/2020 09:34:04 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 09:34:04 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:34:04 PM File "dataset/Reuters/reut2-003.sgm" opened
+INFO | 03/06/2020 09:34:04 PM File "dataset/Reuters/reut2-003.sgm" read
+INFO | 03/06/2020 09:34:04 PM Counting words occurrences
+INFO | 03/06/2020 09:35:19 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:35:19 PM RawText object initialized using text starting with "
+
+ 9-..."
+INFO | 03/06/2020 09:35:19 PM Cleaning text at level "40"
+INFO | 03/06/2020 09:35:26 PM CleanedText object initialized using "40" as cleaning level
+INFO | 03/06/2020 09:35:26 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 09:35:26 PM Counting words occurrences
+INFO | 03/06/2020 09:35:58 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:35:58 PM AbstractText object initialized
+INFO | 03/06/2020 09:35:58 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 09:35:58 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:35:58 PM File "dataset/Reuters/reut2-004.sgm" opened
+INFO | 03/06/2020 09:35:58 PM File "dataset/Reuters/reut2-004.sgm" read
+INFO | 03/06/2020 09:35:58 PM Counting words occurrences
+INFO | 03/06/2020 09:37:19 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:37:19 PM RawText object initialized using text starting with "
+
+11-..."
+INFO | 03/06/2020 09:37:19 PM Cleaning text at level "40"
+INFO | 03/06/2020 09:37:27 PM CleanedText object initialized using "40" as cleaning level
+INFO | 03/06/2020 09:37:27 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 09:37:27 PM Counting words occurrences
+INFO | 03/06/2020 09:38:05 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:38:05 PM AbstractText object initialized
+INFO | 03/06/2020 09:38:05 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 09:38:05 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:38:05 PM File "dataset/Reuters/reut2-005.sgm" opened
+INFO | 03/06/2020 09:38:05 PM File "dataset/Reuters/reut2-005.sgm" read
+INFO | 03/06/2020 09:38:05 PM Counting words occurrences
+INFO | 03/06/2020 09:39:36 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:39:36 PM RawText object initialized using text starting with "
+
+13-..."
+INFO | 03/06/2020 09:39:36 PM Cleaning text at level "40"
+INFO | 03/06/2020 09:39:44 PM CleanedText object initialized using "40" as cleaning level
+INFO | 03/06/2020 09:39:44 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 09:39:44 PM Counting words occurrences
+INFO | 03/06/2020 09:40:21 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:40:21 PM AbstractText object initialized
+INFO | 03/06/2020 09:40:21 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 09:40:21 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:40:21 PM File "dataset/Reuters/reut2-006.sgm" opened
+INFO | 03/06/2020 09:40:21 PM File "dataset/Reuters/reut2-006.sgm" read
+INFO | 03/06/2020 09:40:21 PM Counting words occurrences
+INFO | 03/06/2020 09:41:40 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:41:40 PM RawText object initialized using text starting with "
+
+17-..."
+INFO | 03/06/2020 09:41:40 PM Cleaning text at level "40"
+INFO | 03/06/2020 09:41:46 PM CleanedText object initialized using "40" as cleaning level
+INFO | 03/06/2020 09:41:46 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 09:41:46 PM Counting words occurrences
+INFO | 03/06/2020 09:42:20 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:42:20 PM AbstractText object initialized
+INFO | 03/06/2020 09:42:20 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 09:42:20 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:42:20 PM File "dataset/Reuters/reut2-007.sgm" opened
+INFO | 03/06/2020 09:42:20 PM File "dataset/Reuters/reut2-007.sgm" read
+INFO | 03/06/2020 09:42:20 PM Counting words occurrences
+INFO | 03/06/2020 09:43:38 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:43:38 PM RawText object initialized using text starting with "
+
+19-..."
+INFO | 03/06/2020 09:43:38 PM Cleaning text at level "40"
+INFO | 03/06/2020 09:43:45 PM CleanedText object initialized using "40" as cleaning level
+INFO | 03/06/2020 09:43:45 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 09:43:45 PM Counting words occurrences
+INFO | 03/06/2020 09:44:18 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:44:18 PM AbstractText object initialized
+INFO | 03/06/2020 09:44:18 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 09:44:18 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:44:18 PM File "dataset/Reuters/reut2-008.sgm" opened
+INFO | 03/06/2020 09:44:18 PM File "dataset/Reuters/reut2-008.sgm" read
+WARNING | 03/06/2020 09:44:18 PM File too big. It has been reduced
+INFO | 03/06/2020 09:44:18 PM Counting words occurrences
+INFO | 03/06/2020 09:45:53 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:45:53 PM RawText object initialized using text starting with "
+
+20-..."
+INFO | 03/06/2020 09:45:53 PM Cleaning text at level "40"
+INFO | 03/06/2020 09:46:01 PM CleanedText object initialized using "40" as cleaning level
+INFO | 03/06/2020 09:46:01 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 09:46:01 PM Counting words occurrences
+INFO | 03/06/2020 09:46:40 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:46:40 PM AbstractText object initialized
+INFO | 03/06/2020 09:46:40 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 09:46:40 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:46:40 PM File "dataset/Reuters/reut2-009.sgm" opened
+INFO | 03/06/2020 09:46:40 PM File "dataset/Reuters/reut2-009.sgm" read
+INFO | 03/06/2020 09:46:40 PM Counting words occurrences
+INFO | 03/06/2020 09:48:12 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:48:12 PM RawText object initialized using text starting with "
+
+24-..."
+INFO | 03/06/2020 09:48:12 PM Cleaning text at level "40"
+INFO | 03/06/2020 09:48:21 PM CleanedText object initialized using "40" as cleaning level
+INFO | 03/06/2020 09:48:21 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 09:48:21 PM Counting words occurrences
+INFO | 03/06/2020 09:48:57 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:48:57 PM AbstractText object initialized
+INFO | 03/06/2020 09:48:57 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 09:48:57 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:48:57 PM File "dataset/Reuters/reut2-010.sgm" opened
+INFO | 03/06/2020 09:48:57 PM File "dataset/Reuters/reut2-010.sgm" read
+INFO | 03/06/2020 09:48:57 PM Counting words occurrences
+INFO | 03/06/2020 09:50:30 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:50:30 PM RawText object initialized using text starting with "
+
+26-..."
+INFO | 03/06/2020 09:50:30 PM Cleaning text at level "40"
+INFO | 03/06/2020 09:50:38 PM CleanedText object initialized using "40" as cleaning level
+INFO | 03/06/2020 09:50:38 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 09:50:38 PM Counting words occurrences
+INFO | 03/06/2020 09:51:16 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:51:16 PM AbstractText object initialized
+INFO | 03/06/2020 09:51:16 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 09:51:16 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:51:16 PM File "dataset/Reuters/reut2-011.sgm" opened
+INFO | 03/06/2020 09:51:17 PM File "dataset/Reuters/reut2-011.sgm" read
+INFO | 03/06/2020 09:51:17 PM Counting words occurrences
+INFO | 03/06/2020 09:52:44 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:52:44 PM RawText object initialized using text starting with "
+
+30-..."
+INFO | 03/06/2020 09:52:44 PM Cleaning text at level "40"
+INFO | 03/06/2020 09:52:51 PM CleanedText object initialized using "40" as cleaning level
+INFO | 03/06/2020 09:52:51 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 09:52:51 PM Counting words occurrences
+INFO | 03/06/2020 09:53:27 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:53:27 PM AbstractText object initialized
+INFO | 03/06/2020 09:53:27 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 09:53:27 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:53:27 PM File "dataset/Reuters/reut2-012.sgm" opened
+INFO | 03/06/2020 09:53:27 PM File "dataset/Reuters/reut2-012.sgm" read
+INFO | 03/06/2020 09:53:27 PM Counting words occurrences
+INFO | 03/06/2020 09:54:57 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:54:57 PM RawText object initialized using text starting with "
+
+ 1-..."
+INFO | 03/06/2020 09:54:57 PM Cleaning text at level "40"
+INFO | 03/06/2020 09:55:04 PM CleanedText object initialized using "40" as cleaning level
+INFO | 03/06/2020 09:55:04 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 09:55:04 PM Counting words occurrences
+INFO | 03/06/2020 09:55:41 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:55:42 PM AbstractText object initialized
+INFO | 03/06/2020 09:55:42 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 09:55:42 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:55:42 PM File "dataset/Reuters/reut2-013.sgm" opened
+INFO | 03/06/2020 09:55:42 PM File "dataset/Reuters/reut2-013.sgm" read
+INFO | 03/06/2020 09:55:42 PM Counting words occurrences
+INFO | 03/06/2020 09:56:56 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:56:56 PM RawText object initialized using text starting with "
+
+ 3-..."
+INFO | 03/06/2020 09:56:56 PM Cleaning text at level "40"
+INFO | 03/06/2020 09:57:02 PM CleanedText object initialized using "40" as cleaning level
+INFO | 03/06/2020 09:57:02 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 09:57:02 PM Counting words occurrences
+INFO | 03/06/2020 09:57:29 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:57:29 PM AbstractText object initialized
+INFO | 03/06/2020 09:57:29 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 09:57:29 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:57:29 PM File "dataset/Reuters/reut2-014.sgm" opened
+INFO | 03/06/2020 09:57:29 PM File "dataset/Reuters/reut2-014.sgm" read
+INFO | 03/06/2020 09:57:29 PM Counting words occurrences
+INFO | 03/06/2020 09:58:49 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:58:49 PM RawText object initialized using text starting with "
+
+ 7-..."
+INFO | 03/06/2020 09:58:49 PM Cleaning text at level "40"
+INFO | 03/06/2020 09:58:55 PM CleanedText object initialized using "40" as cleaning level
+INFO | 03/06/2020 09:58:55 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 09:58:55 PM Counting words occurrences
+INFO | 03/06/2020 09:59:22 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:59:22 PM AbstractText object initialized
+INFO | 03/06/2020 09:59:22 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 09:59:22 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 09:59:22 PM File "dataset/Reuters/reut2-015.sgm" opened
+INFO | 03/06/2020 09:59:22 PM File "dataset/Reuters/reut2-015.sgm" read
+INFO | 03/06/2020 09:59:22 PM Counting words occurrences
+INFO | 03/06/2020 10:00:44 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 10:00:44 PM RawText object initialized using text starting with "
+
+ 8-..."
+INFO | 03/06/2020 10:00:44 PM Cleaning text at level "40"
+INFO | 03/06/2020 10:00:51 PM CleanedText object initialized using "40" as cleaning level
+INFO | 03/06/2020 10:00:51 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 10:00:51 PM Counting words occurrences
+INFO | 03/06/2020 10:01:23 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 10:01:23 PM AbstractText object initialized
+INFO | 03/06/2020 10:01:23 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 10:01:23 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 10:01:23 PM File "dataset/Reuters/reut2-016.sgm" opened
+INFO | 03/06/2020 10:01:23 PM File "dataset/Reuters/reut2-016.sgm" read
+INFO | 03/06/2020 10:01:23 PM Counting words occurrences
+INFO | 03/06/2020 10:02:49 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 10:02:49 PM RawText object initialized using text starting with "
+
+ 9-..."
+INFO | 03/06/2020 10:02:49 PM Cleaning text at level "40"
+INFO | 03/06/2020 10:02:56 PM CleanedText object initialized using "40" as cleaning level
+INFO | 03/06/2020 10:02:56 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 10:02:56 PM Counting words occurrences
+INFO | 03/06/2020 10:03:32 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 10:03:32 PM AbstractText object initialized
+INFO | 03/06/2020 10:03:32 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 10:03:32 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 10:03:32 PM File "dataset/Reuters/reut2-017.sgm" opened
+INFO | 03/06/2020 10:03:32 PM File "dataset/Reuters/reut2-017.sgm" read
+WARNING | 03/06/2020 10:03:32 PM File too big. It has been reduced
+INFO | 03/06/2020 10:03:32 PM Counting words occurrences
+INFO | 03/06/2020 10:05:09 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 10:05:09 PM RawText object initialized using text starting with "
+
+21-..."
+INFO | 03/06/2020 10:05:09 PM Cleaning text at level "40"
+INFO | 03/06/2020 10:05:17 PM CleanedText object initialized using "40" as cleaning level
+INFO | 03/06/2020 10:05:17 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 10:05:17 PM Counting words occurrences
+INFO | 03/06/2020 10:05:58 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 10:05:58 PM AbstractText object initialized
+INFO | 03/06/2020 10:05:58 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 10:05:58 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 10:05:58 PM File "dataset/Reuters/reut2-018.sgm" opened
+INFO | 03/06/2020 10:05:58 PM File "dataset/Reuters/reut2-018.sgm" read
+INFO | 03/06/2020 10:05:58 PM Counting words occurrences
+INFO | 03/06/2020 10:07:21 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 10:07:21 PM RawText object initialized using text starting with "
+
+ 2-..."
+INFO | 03/06/2020 10:07:21 PM Cleaning text at level "40"
+INFO | 03/06/2020 10:07:28 PM CleanedText object initialized using "40" as cleaning level
+INFO | 03/06/2020 10:07:28 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 10:07:28 PM Counting words occurrences
+INFO | 03/06/2020 10:08:04 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 10:08:04 PM AbstractText object initialized
+INFO | 03/06/2020 10:08:04 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 10:08:04 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 10:08:04 PM File "dataset/Reuters/reut2-019.sgm" opened
+INFO | 03/06/2020 10:08:04 PM File "dataset/Reuters/reut2-019.sgm" read
+INFO | 03/06/2020 10:08:04 PM Counting words occurrences
+INFO | 03/06/2020 10:09:32 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 10:09:32 PM RawText object initialized using text starting with "
+
+18-..."
+INFO | 03/06/2020 10:09:32 PM Cleaning text at level "40"
+INFO | 03/06/2020 10:09:39 PM CleanedText object initialized using "40" as cleaning level
+INFO | 03/06/2020 10:09:39 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 10:09:39 PM Counting words occurrences
+INFO | 03/06/2020 10:10:18 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 10:10:18 PM AbstractText object initialized
+INFO | 03/06/2020 10:10:18 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 10:10:18 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 10:10:18 PM File "dataset/Reuters/reut2-020.sgm" opened
+INFO | 03/06/2020 10:10:18 PM File "dataset/Reuters/reut2-020.sgm" read
+INFO | 03/06/2020 10:10:18 PM Counting words occurrences
+INFO | 03/06/2020 10:11:17 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 10:11:17 PM RawText object initialized using text starting with "
+
+19-..."
+INFO | 03/06/2020 10:11:17 PM Cleaning text at level "40"
+INFO | 03/06/2020 10:11:22 PM CleanedText object initialized using "40" as cleaning level
+INFO | 03/06/2020 10:11:22 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 10:11:22 PM Counting words occurrences
+INFO | 03/06/2020 10:11:51 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 10:11:51 PM AbstractText object initialized
+INFO | 03/06/2020 10:11:51 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 10:11:51 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 10:11:51 PM File "dataset/Reuters/reut2-021.sgm" opened
+INFO | 03/06/2020 10:11:51 PM File "dataset/Reuters/reut2-021.sgm" read
+INFO | 03/06/2020 10:11:51 PM Counting words occurrences
+INFO | 03/06/2020 10:12:18 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 10:12:18 PM RawText object initialized using text starting with "
+
+19-..."
+INFO | 03/06/2020 10:12:18 PM Cleaning text at level "40"
+INFO | 03/06/2020 10:12:21 PM CleanedText object initialized using "40" as cleaning level
+INFO | 03/06/2020 10:12:21 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 10:12:21 PM Counting words occurrences
+INFO | 03/06/2020 10:12:33 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 10:12:33 PM AbstractText object initialized
+INFO | 03/06/2020 10:12:33 PM Cleaning up useless attributes to free memory
+INFO | 03/06/2020 10:12:33 PM Calculating words frequencies with occurrences normalized
+INFO | 03/06/2020 10:12:33 PM Stopwords training finished
