@@ -1,0 +1,189 @@
+INFO | 03/10/2020 07:22:50 PM Starting sadness vocabulary training
+INFO | 03/10/2020 07:22:50 PM File "dataset/Sadness/tweets" opened
+INFO | 03/10/2020 07:22:50 PM File "dataset/Sadness/tweets" read
+INFO | 03/10/2020 07:22:50 PM RawText object initialized using text starting with "Layin..."
+INFO | 03/10/2020 07:22:50 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:22:55 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:22:55 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:22:55 PM Counting words occurrences
+INFO | 03/10/2020 07:23:17 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:23:17 PM AbstractText object initialized
+INFO | 03/10/2020 07:23:17 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:23:17 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:23:17 PM File "dataset/Sadness/xaa" opened
+INFO | 03/10/2020 07:23:17 PM File "dataset/Sadness/xaa" read
+INFO | 03/10/2020 07:23:17 PM RawText object initialized using text starting with "i fee..."
+INFO | 03/10/2020 07:23:17 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:23:27 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:23:27 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:23:27 PM Counting words occurrences
+INFO | 03/10/2020 07:23:55 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:23:55 PM AbstractText object initialized
+INFO | 03/10/2020 07:23:55 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:23:55 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:23:55 PM File "dataset/Sadness/xab" opened
+INFO | 03/10/2020 07:23:55 PM File "dataset/Sadness/xab" read
+INFO | 03/10/2020 07:23:55 PM RawText object initialized using text starting with "i'm a..."
+INFO | 03/10/2020 07:23:55 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:24:04 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:24:04 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:24:04 PM Counting words occurrences
+INFO | 03/10/2020 07:24:31 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:24:31 PM AbstractText object initialized
+INFO | 03/10/2020 07:24:31 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:24:31 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:24:31 PM File "dataset/Sadness/xac" opened
+INFO | 03/10/2020 07:24:31 PM File "dataset/Sadness/xac" read
+INFO | 03/10/2020 07:24:31 PM RawText object initialized using text starting with "i'm u..."
+INFO | 03/10/2020 07:24:31 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:24:41 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:24:41 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:24:41 PM Counting words occurrences
+INFO | 03/10/2020 07:25:08 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:25:08 PM AbstractText object initialized
+INFO | 03/10/2020 07:25:08 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:25:08 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:25:08 PM File "dataset/Sadness/xad" opened
+INFO | 03/10/2020 07:25:08 PM File "dataset/Sadness/xad" read
+INFO | 03/10/2020 07:25:08 PM RawText object initialized using text starting with "i was..."
+INFO | 03/10/2020 07:25:08 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:25:17 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:25:17 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:25:17 PM Counting words occurrences
+INFO | 03/10/2020 07:25:43 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:25:43 PM AbstractText object initialized
+INFO | 03/10/2020 07:25:43 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:25:43 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:25:43 PM File "dataset/Sadness/xae" opened
+INFO | 03/10/2020 07:25:43 PM File "dataset/Sadness/xae" read
+INFO | 03/10/2020 07:25:43 PM RawText object initialized using text starting with "i did..."
+INFO | 03/10/2020 07:25:43 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:25:52 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:25:52 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:25:52 PM Counting words occurrences
+INFO | 03/10/2020 07:26:14 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:26:14 PM AbstractText object initialized
+INFO | 03/10/2020 07:26:14 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:26:14 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:26:14 PM File "dataset/Sadness/xaf" opened
+INFO | 03/10/2020 07:26:14 PM File "dataset/Sadness/xaf" read
+INFO | 03/10/2020 07:26:14 PM RawText object initialized using text starting with "i fee..."
+INFO | 03/10/2020 07:26:14 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:26:23 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:26:23 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:26:23 PM Counting words occurrences
+INFO | 03/10/2020 07:26:46 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:26:46 PM AbstractText object initialized
+INFO | 03/10/2020 07:26:46 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:26:46 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:26:46 PM File "dataset/Sadness/xag" opened
+INFO | 03/10/2020 07:26:46 PM File "dataset/Sadness/xag" read
+INFO | 03/10/2020 07:26:46 PM RawText object initialized using text starting with "i thi..."
+INFO | 03/10/2020 07:26:46 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:26:55 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:26:55 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:26:55 PM Counting words occurrences
+INFO | 03/10/2020 07:27:22 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:27:22 PM AbstractText object initialized
+INFO | 03/10/2020 07:27:22 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:27:22 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:27:22 PM File "dataset/Sadness/xah" opened
+INFO | 03/10/2020 07:27:23 PM File "dataset/Sadness/xah" read
+INFO | 03/10/2020 07:27:23 PM RawText object initialized using text starting with "i can..."
+INFO | 03/10/2020 07:27:23 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:27:32 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:27:32 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:27:32 PM Counting words occurrences
+INFO | 03/10/2020 07:28:03 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:28:03 PM AbstractText object initialized
+INFO | 03/10/2020 07:28:03 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:28:03 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:28:03 PM File "dataset/Sadness/xai" opened
+INFO | 03/10/2020 07:28:03 PM File "dataset/Sadness/xai" read
+INFO | 03/10/2020 07:28:03 PM RawText object initialized using text starting with "i don..."
+INFO | 03/10/2020 07:28:03 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:28:16 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:28:16 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:28:16 PM Counting words occurrences
+INFO | 03/10/2020 07:28:37 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:28:37 PM AbstractText object initialized
+INFO | 03/10/2020 07:28:37 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:28:37 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:28:37 PM File "dataset/Sadness/xaj" opened
+INFO | 03/10/2020 07:28:37 PM File "dataset/Sadness/xaj" read
+INFO | 03/10/2020 07:28:37 PM RawText object initialized using text starting with "i've ..."
+INFO | 03/10/2020 07:28:37 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:28:45 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:28:45 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:28:45 PM Counting words occurrences
+INFO | 03/10/2020 07:29:05 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:29:05 PM AbstractText object initialized
+INFO | 03/10/2020 07:29:05 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:29:05 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:29:05 PM File "dataset/Sadness/xak" opened
+INFO | 03/10/2020 07:29:05 PM File "dataset/Sadness/xak" read
+INFO | 03/10/2020 07:29:05 PM RawText object initialized using text starting with "i fee..."
+INFO | 03/10/2020 07:29:05 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:29:14 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:29:14 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:29:14 PM Counting words occurrences
+INFO | 03/10/2020 07:29:36 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:29:36 PM AbstractText object initialized
+INFO | 03/10/2020 07:29:36 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:29:36 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:29:36 PM File "dataset/Sadness/xal" opened
+INFO | 03/10/2020 07:29:36 PM File "dataset/Sadness/xal" read
+INFO | 03/10/2020 07:29:36 PM RawText object initialized using text starting with "i fee..."
+INFO | 03/10/2020 07:29:36 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:29:45 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:29:45 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:29:45 PM Counting words occurrences
+INFO | 03/10/2020 07:30:07 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:30:07 PM AbstractText object initialized
+INFO | 03/10/2020 07:30:07 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:30:07 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:30:07 PM File "dataset/Sadness/xam" opened
+INFO | 03/10/2020 07:30:07 PM File "dataset/Sadness/xam" read
+INFO | 03/10/2020 07:30:07 PM RawText object initialized using text starting with "i am ..."
+INFO | 03/10/2020 07:30:07 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:30:16 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:30:16 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:30:16 PM Counting words occurrences
+INFO | 03/10/2020 07:30:38 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:30:38 PM AbstractText object initialized
+INFO | 03/10/2020 07:30:38 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:30:38 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:30:38 PM File "dataset/Sadness/xan" opened
+INFO | 03/10/2020 07:30:38 PM File "dataset/Sadness/xan" read
+INFO | 03/10/2020 07:30:38 PM RawText object initialized using text starting with "i go ..."
+INFO | 03/10/2020 07:30:38 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:30:46 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:30:46 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:30:46 PM Counting words occurrences
+INFO | 03/10/2020 07:31:05 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:31:05 PM AbstractText object initialized
+INFO | 03/10/2020 07:31:05 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:31:05 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:31:05 PM File "dataset/Sadness/xao" opened
+INFO | 03/10/2020 07:31:05 PM File "dataset/Sadness/xao" read
+INFO | 03/10/2020 07:31:05 PM RawText object initialized using text starting with "i sup..."
+INFO | 03/10/2020 07:31:05 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:31:18 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:31:18 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:31:18 PM Counting words occurrences
+INFO | 03/10/2020 07:31:37 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:31:37 PM AbstractText object initialized
+INFO | 03/10/2020 07:31:37 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:31:37 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:31:37 PM File "dataset/Sadness/xap" opened
+INFO | 03/10/2020 07:31:37 PM File "dataset/Sadness/xap" read
+INFO | 03/10/2020 07:31:38 PM RawText object initialized using text starting with "i sai..."
+INFO | 03/10/2020 07:31:38 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:31:44 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:31:44 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:31:44 PM Counting words occurrences
+INFO | 03/10/2020 07:32:01 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:32:01 PM AbstractText object initialized
+INFO | 03/10/2020 07:32:01 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:32:01 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:34:12 PM Training finished for sadness vocabulary

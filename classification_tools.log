@@ -1,0 +1,16 @@
+INFO | 03/10/2020 09:06:44 PM RawText object initialized using text starting with "I'm h..."
+INFO | 03/10/2020 09:06:44 PM Cleaning text at level "50"
+INFO | 03/10/2020 09:06:44 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 09:06:44 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 09:06:44 PM Counting words occurrences
+INFO | 03/10/2020 09:06:44 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 09:06:44 PM AbstractText object initialized
+INFO | 03/10/2020 09:06:44 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 09:06:44 PM RawText object initialized using text starting with "I'm s..."
+INFO | 03/10/2020 09:06:44 PM Cleaning text at level "50"
+INFO | 03/10/2020 09:06:44 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 09:06:44 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 09:06:44 PM Counting words occurrences
+INFO | 03/10/2020 09:06:44 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 09:06:44 PM AbstractText object initialized
+INFO | 03/10/2020 09:06:44 PM Cleaning up useless attributes to free memory

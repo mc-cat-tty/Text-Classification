@@ -20,7 +20,7 @@ HIGH = 50
 LOG_FILENAME = 'classification_tools.log'
 LOG_LEVEL = logging.INFO
 SPACY_MODEL = 'en_core_web_sm'
-MAX_DIM = 1000000
+MAX_DIM = 1000000  # 1000 KB
 NUM = 'NUM'
 
 MODELS = 'models/'
@@ -407,7 +407,7 @@ class Classificator(object):
         logging.info('Starting {} vocabulary training'.format(label))
         v = Vocabulary(label, stopwords_model)
         for filename in os.listdir(dataset_directory):
-            a = AbstractText.from_text_file(dataset_directory + filename, cleaning_level=MEDIUM)
+            a = AbstractText.from_text_file(dataset_directory + filename, cleaning_level=HIGH, fast=True)
             v.add(a)
         v.train()
         v.save(model_filename)
@@ -418,7 +418,7 @@ class Classificator(object):
         logging.info('Starting {} vocabulary training'.format(old_model.label))
         v = old_model
         for filename in os.listdir(dataset_directory):
-            a = AbstractText.from_text_file(dataset_directory + filename, cleaning_level=MEDIUM)
+            a = AbstractText.from_text_file(dataset_directory + filename, cleaning_level=HIGH, fast=True)
             v.add(a)
         v.train()
         v.save(new_model_filename)
@@ -439,31 +439,53 @@ class Classificator(object):
 
 
 class LabelledText(AbstractText):
-    pass
+    def __init__(self, text='', vocabularies_list=list(), *args, **kwargs):
+        super().__init__(text, *args, **kwargs)
+        self.vocabularies_list = vocabularies_list
+        self.label = str()
+        if vocabularies_list != list():
+            self.__update_label()
+        else:
+            self.updated = True
+
+    def add_vocabulary(self, *args):
+        if args != tuple():
+            self.vocabularies_list.extend(args)
+            self.updated = False
+
+    def get_label(self):
+        if not self.updated:
+            self.__update_label()
+        return self.label
+
+    def __update_label(self):
+        d = {v.compare(self): v.label for v in self.vocabularies_list}
+        self.label = d.get(max(d.keys()))
+        self.updated = True
+
+
+
 
 
 def main():  # Test function
     # Classificator.train_stopwords_and_save_model(DATASET+'Canadian_Parliament_Debates/', MODELS+'stopwords_old')  # Instruction to train new stopwords model
     # s = Stopwords.load(MODELS+'stopwords_old')
     # Classificator.train_stopwords_starting_from_model_and_save_new_model(s, DATASET+"Reuters/", MODELS+'stopwords')  # Instruction to reinforce already existing model
-
-    s = Classificator.init_stopwords(STOPWORDS_MODEL_FILENAME)
-    # print(s.words_num)
-    # print(s.union_dim)
-    # print(s.union)
-    # print(Stopwords.stopwords_list)
-
-    # a = AbstractText("I am going to go to the super-market store, and work at 5:00 !!!\n And you? myself", cleaning_level=HIGH, fast=True)
-    # print(a.words_freq)
-
+    # s = Classificator.init_stopwords(STOPWORDS_MODEL_FILENAME)
     # Classificator.train_vocabulary_and_save_model("happiness", s, DATASET + 'Happiness/', MODELS + 'happiness_vocabulary')
-
-    v = Vocabulary.load(MODELS+'happiness_vocabulary')
-    print(v.compare(AbstractText("I am sad and I want to kill myself", cleaning_level=HIGH, fast=True)))
-    print(v.compare(AbstractText("I am happy because the sky is blue and I'm on holiday", cleaning_level=HIGH, fast=True)))
-
-    # s = Classificator.init_stopwords(MODELS+"stopwords_old2")
     # Classificator.train_stopwords_starting_from_model_and_save_new_model(s, DATASET+"Reviews/", MODELS+'stopwords')  # Instruction to reinforce already existing model
+    # Classificator.train_vocabulary_and_save_model('sadness', s, DATASET + 'Sadness/', MODELS + 'sadness_vocabulary')
+
+    Classificator.init_stopwords(STOPWORDS_MODEL_FILENAME)  # Initializing stopwords class
+
+    happiness_vocabulary = Vocabulary.load(MODELS + 'happiness_vocabulary')
+    sadness_vocabulary = Vocabulary.load(MODELS + 'sadness_vocabulary')
+
+    l = LabelledText("I'm happy because the sky is blue and I'm on holiday", [happiness_vocabulary, sadness_vocabulary], cleaning_level=HIGH, fast=True)
+    print(l.get_label())
+
+    l = LabelledText("I'm sad and I'm feeling worthless", [happiness_vocabulary, sadness_vocabulary], cleaning_level=HIGH, fast=True)
+    print(l.get_label())
 
 if __name__ == "__main__":
     main()

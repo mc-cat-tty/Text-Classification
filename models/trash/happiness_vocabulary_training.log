@@ -1,0 +1,189 @@
+INFO | 03/10/2020 07:47:14 PM Starting happiness vocabulary training
+INFO | 03/10/2020 07:47:14 PM File "dataset/Happiness/f0.txt" opened
+INFO | 03/10/2020 07:47:14 PM File "dataset/Happiness/f0.txt" read
+INFO | 03/10/2020 07:47:14 PM RawText object initialized using text starting with "0 I w..."
+INFO | 03/10/2020 07:47:14 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:47:21 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:47:21 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:47:21 PM Counting words occurrences
+INFO | 03/10/2020 07:47:35 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:47:35 PM AbstractText object initialized
+INFO | 03/10/2020 07:47:35 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:47:35 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:47:35 PM File "dataset/Happiness/f1.txt" opened
+INFO | 03/10/2020 07:47:35 PM File "dataset/Happiness/f1.txt" read
+INFO | 03/10/2020 07:47:35 PM RawText object initialized using text starting with "The e..."
+INFO | 03/10/2020 07:47:35 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:47:41 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:47:41 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:47:41 PM Counting words occurrences
+INFO | 03/10/2020 07:47:59 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:47:59 PM AbstractText object initialized
+INFO | 03/10/2020 07:47:59 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:47:59 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:47:59 PM File "dataset/Happiness/f10.txt" opened
+INFO | 03/10/2020 07:47:59 PM File "dataset/Happiness/f10.txt" read
+INFO | 03/10/2020 07:47:59 PM RawText object initialized using text starting with "My hu..."
+INFO | 03/10/2020 07:47:59 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:48:04 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:48:04 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:48:04 PM Counting words occurrences
+INFO | 03/10/2020 07:48:21 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:48:21 PM AbstractText object initialized
+INFO | 03/10/2020 07:48:21 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:48:21 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:48:21 PM File "dataset/Happiness/f11.txt" opened
+INFO | 03/10/2020 07:48:21 PM File "dataset/Happiness/f11.txt" read
+INFO | 03/10/2020 07:48:21 PM RawText object initialized using text starting with "The d..."
+INFO | 03/10/2020 07:48:21 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:48:28 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:48:28 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:48:28 PM Counting words occurrences
+INFO | 03/10/2020 07:48:43 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:48:43 PM AbstractText object initialized
+INFO | 03/10/2020 07:48:43 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:48:43 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:48:43 PM File "dataset/Happiness/f12.txt" opened
+INFO | 03/10/2020 07:48:43 PM File "dataset/Happiness/f12.txt" read
+INFO | 03/10/2020 07:48:43 PM RawText object initialized using text starting with "every..."
+INFO | 03/10/2020 07:48:43 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:48:49 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:48:49 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:48:49 PM Counting words occurrences
+INFO | 03/10/2020 07:49:03 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:49:03 PM AbstractText object initialized
+INFO | 03/10/2020 07:49:03 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:49:03 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:49:03 PM File "dataset/Happiness/f13.txt" opened
+INFO | 03/10/2020 07:49:03 PM File "dataset/Happiness/f13.txt" read
+INFO | 03/10/2020 07:49:03 PM RawText object initialized using text starting with "Buyin..."
+INFO | 03/10/2020 07:49:03 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:49:09 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:49:09 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:49:09 PM Counting words occurrences
+INFO | 03/10/2020 07:49:23 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:49:23 PM AbstractText object initialized
+INFO | 03/10/2020 07:49:23 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:49:23 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:49:23 PM File "dataset/Happiness/f14.txt" opened
+INFO | 03/10/2020 07:49:23 PM File "dataset/Happiness/f14.txt" read
+INFO | 03/10/2020 07:49:23 PM RawText object initialized using text starting with "I soa..."
+INFO | 03/10/2020 07:49:23 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:49:28 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:49:28 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:49:28 PM Counting words occurrences
+INFO | 03/10/2020 07:49:38 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:49:38 PM AbstractText object initialized
+INFO | 03/10/2020 07:49:38 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:49:38 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:49:38 PM File "dataset/Happiness/f15.txt" opened
+INFO | 03/10/2020 07:49:38 PM File "dataset/Happiness/f15.txt" read
+INFO | 03/10/2020 07:49:38 PM RawText object initialized using text starting with "My so..."
+INFO | 03/10/2020 07:49:38 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:49:43 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:49:43 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:49:43 PM Counting words occurrences
+INFO | 03/10/2020 07:49:55 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:49:55 PM AbstractText object initialized
+INFO | 03/10/2020 07:49:55 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:49:55 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:49:55 PM File "dataset/Happiness/f16.txt" opened
+INFO | 03/10/2020 07:49:55 PM File "dataset/Happiness/f16.txt" read
+INFO | 03/10/2020 07:49:55 PM RawText object initialized using text starting with "I bou..."
+INFO | 03/10/2020 07:49:55 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:49:59 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:49:59 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:49:59 PM Counting words occurrences
+INFO | 03/10/2020 07:50:08 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:50:08 PM AbstractText object initialized
+INFO | 03/10/2020 07:50:08 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:50:08 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:50:08 PM File "dataset/Happiness/f2.txt" opened
+INFO | 03/10/2020 07:50:08 PM File "dataset/Happiness/f2.txt" read
+INFO | 03/10/2020 07:50:08 PM RawText object initialized using text starting with "This ..."
+INFO | 03/10/2020 07:50:08 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:50:13 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:50:13 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:50:13 PM Counting words occurrences
+INFO | 03/10/2020 07:50:26 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:50:26 PM AbstractText object initialized
+INFO | 03/10/2020 07:50:26 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:50:26 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:50:26 PM File "dataset/Happiness/f3.txt" opened
+INFO | 03/10/2020 07:50:26 PM File "dataset/Happiness/f3.txt" read
+INFO | 03/10/2020 07:50:26 PM RawText object initialized using text starting with "I lis..."
+INFO | 03/10/2020 07:50:26 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:50:31 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:50:31 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:50:31 PM Counting words occurrences
+INFO | 03/10/2020 07:50:41 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:50:41 PM AbstractText object initialized
+INFO | 03/10/2020 07:50:41 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:50:41 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:50:41 PM File "dataset/Happiness/f4.txt" opened
+INFO | 03/10/2020 07:50:41 PM File "dataset/Happiness/f4.txt" read
+INFO | 03/10/2020 07:50:41 PM RawText object initialized using text starting with "I bou..."
+INFO | 03/10/2020 07:50:41 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:50:46 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:50:46 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:50:46 PM Counting words occurrences
+INFO | 03/10/2020 07:50:56 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:50:56 PM AbstractText object initialized
+INFO | 03/10/2020 07:50:56 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:50:56 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:50:56 PM File "dataset/Happiness/f5.txt" opened
+INFO | 03/10/2020 07:50:56 PM File "dataset/Happiness/f5.txt" read
+INFO | 03/10/2020 07:50:56 PM RawText object initialized using text starting with "going..."
+INFO | 03/10/2020 07:50:56 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:51:03 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:51:03 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:51:03 PM Counting words occurrences
+INFO | 03/10/2020 07:51:15 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:51:15 PM AbstractText object initialized
+INFO | 03/10/2020 07:51:15 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:51:15 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:51:15 PM File "dataset/Happiness/f6.txt" opened
+INFO | 03/10/2020 07:51:15 PM File "dataset/Happiness/f6.txt" read
+INFO | 03/10/2020 07:51:15 PM RawText object initialized using text starting with "My fr..."
+INFO | 03/10/2020 07:51:15 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:51:21 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:51:21 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:51:21 PM Counting words occurrences
+INFO | 03/10/2020 07:51:33 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:51:33 PM AbstractText object initialized
+INFO | 03/10/2020 07:51:33 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:51:33 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:51:33 PM File "dataset/Happiness/f7.txt" opened
+INFO | 03/10/2020 07:51:33 PM File "dataset/Happiness/f7.txt" read
+INFO | 03/10/2020 07:51:33 PM RawText object initialized using text starting with "I had..."
+INFO | 03/10/2020 07:51:33 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:51:39 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:51:39 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:51:39 PM Counting words occurrences
+INFO | 03/10/2020 07:51:57 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:51:57 PM AbstractText object initialized
+INFO | 03/10/2020 07:51:57 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:51:57 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:51:57 PM File "dataset/Happiness/f8.txt" opened
+INFO | 03/10/2020 07:51:57 PM File "dataset/Happiness/f8.txt" read
+INFO | 03/10/2020 07:51:57 PM RawText object initialized using text starting with "when ..."
+INFO | 03/10/2020 07:51:57 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:52:05 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:52:05 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:52:05 PM Counting words occurrences
+INFO | 03/10/2020 07:52:22 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:52:22 PM AbstractText object initialized
+INFO | 03/10/2020 07:52:22 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:52:22 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:52:22 PM File "dataset/Happiness/f9.txt" opened
+INFO | 03/10/2020 07:52:22 PM File "dataset/Happiness/f9.txt" read
+INFO | 03/10/2020 07:52:22 PM RawText object initialized using text starting with "I wen..."
+INFO | 03/10/2020 07:52:22 PM Cleaning text at level "50"
+INFO | 03/10/2020 07:52:31 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/10/2020 07:52:31 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:52:31 PM Counting words occurrences
+INFO | 03/10/2020 07:52:43 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:52:43 PM AbstractText object initialized
+INFO | 03/10/2020 07:52:43 PM Cleaning up useless attributes to free memory
+INFO | 03/10/2020 07:52:43 PM Calculating words frequencies with occurrences normalized
+INFO | 03/10/2020 07:54:00 PM Training finished for happiness vocabulary
