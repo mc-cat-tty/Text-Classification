@@ -13,6 +13,8 @@ dataset/Happiness/*
 dataset/Sadness/*
 !dataset/Sadness/xag
 
+dataset/Joy/*
+
 venv/*
 .idea/*
 .git/*

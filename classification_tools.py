@@ -343,9 +343,8 @@ class Vocabulary(Model):
             if word in doc:
                 d += 1
 
-        self.doc_num += 1  # Compensate d's adjustment
-
-        idf = math.log(self.doc_num / d, 10)  # doc_num: Number of documents in the corpus (collection)
+        idf = math.log((self.doc_num + 1) / d,
+                       10)  # doc_num: Number of documents in the corpus (collection) --> +1 to Compensate d's adjustment
 
         return tf * idf
 
@@ -373,8 +372,8 @@ class Vocabulary(Model):
         score = 0
         for word, weight in self.words_balanced.items():
             if word in abstract_text.words_set:
-                score += weight
-        return score/len(self.union)
+                score += weight * abstract_text.words_freq[word]
+        return score / self.union_dim
 
 
 class Classificator(object):
@@ -390,6 +389,7 @@ class Classificator(object):
         s.train()
         s.save(model_filename)
         logging.info('Stopwords training finished')
+        return s
 
     @staticmethod
     def train_stopwords_starting_from_model_and_save_new_model(old_model, dataset_directory, new_model_filename):
@@ -401,6 +401,7 @@ class Classificator(object):
         s.train()
         s.save(new_model_filename)
         logging.info('Stopwords training finished')
+        return s
 
     @staticmethod
     def train_vocabulary_and_save_model(label, stopwords_model, dataset_directory, model_filename):
@@ -412,6 +413,7 @@ class Classificator(object):
         v.train()
         v.save(model_filename)
         logging.info('Training finished for {} vocabulary'.format(label))
+        return v
 
     @staticmethod
     def train_vocabulary_starting_from_model_and_save_new_model(old_model, dataset_directory, new_model_filename):
@@ -423,6 +425,7 @@ class Classificator(object):
         v.train()
         v.save(new_model_filename)
         logging.info('Training finished for {} vocabulary'.format(old_model.label))
+        return v
 
     @staticmethod
     def init_stopwords(model_filename):
@@ -464,16 +467,17 @@ class LabelledText(AbstractText):
         self.updated = True
 
 
-
-
-
 def main():  # Test function
-    # Classificator.train_stopwords_and_save_model(DATASET+'Canadian_Parliament_Debates/', MODELS+'stopwords_old')  # Instruction to train new stopwords model
-    # s = Stopwords.load(MODELS+'stopwords_old')
-    # Classificator.train_stopwords_starting_from_model_and_save_new_model(s, DATASET+"Reuters/", MODELS+'stopwords')  # Instruction to reinforce already existing model
+    # Classificator.train_stopwords_and_save_model(DATASET + 'Canadian_Parliament_Debates/',
+    #                                              MODELS + 'stopwords_old')  # Instruction to train new stopwords model
+    # s = Stopwords.load(MODELS + 'stopwords_old')
+    # Classificator.train_stopwords_starting_from_model_and_save_new_model(s, DATASET + "Reuters/",
+    #                                                                      MODELS + 'stopwords')  # Instruction to reinforce already existing model
     # s = Classificator.init_stopwords(STOPWORDS_MODEL_FILENAME)
-    # Classificator.train_vocabulary_and_save_model("happiness", s, DATASET + 'Happiness/', MODELS + 'happiness_vocabulary')
-    # Classificator.train_stopwords_starting_from_model_and_save_new_model(s, DATASET+"Reviews/", MODELS+'stopwords')  # Instruction to reinforce already existing model
+    # Classificator.train_vocabulary_and_save_model("happiness", s, DATASET + 'Happiness/',
+    #                                               MODELS + 'happiness_vocabulary')
+    # Classificator.train_stopwords_starting_from_model_and_save_new_model(s, DATASET + "Reviews/",
+    #                                                                      MODELS + 'stopwords')  # Instruction to reinforce already existing model
     # Classificator.train_vocabulary_and_save_model('sadness', s, DATASET + 'Sadness/', MODELS + 'sadness_vocabulary')
 
     Classificator.init_stopwords(STOPWORDS_MODEL_FILENAME)  # Initializing stopwords class
@@ -481,11 +485,14 @@ def main():  # Test function
     happiness_vocabulary = Vocabulary.load(MODELS + 'happiness_vocabulary')
     sadness_vocabulary = Vocabulary.load(MODELS + 'sadness_vocabulary')
 
-    l = LabelledText("I'm happy because the sky is blue and I'm on holiday", [happiness_vocabulary, sadness_vocabulary], cleaning_level=HIGH, fast=True)
+    l = LabelledText("Today is a gorgeous day, the sun is shining and the sky is blue",
+                     [happiness_vocabulary, sadness_vocabulary], cleaning_level=HIGH, fast=True)
     print(l.get_label())
 
-    l = LabelledText("I'm sad and I'm feeling worthless", [happiness_vocabulary, sadness_vocabulary], cleaning_level=HIGH, fast=True)
+    l = LabelledText("Nobody cares for me, I'm worthless", [happiness_vocabulary, sadness_vocabulary],
+                     cleaning_level=HIGH, fast=True)
     print(l.get_label())
+
 
 if __name__ == "__main__":
     main()
