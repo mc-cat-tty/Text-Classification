@@ -1,6 +1,5 @@
 #!/bin/python
 
-import nltk
 import spacy
 import logging
 import pickle
@@ -23,9 +22,9 @@ SPACY_MODEL = 'en_core_web_sm'
 MAX_DIM = 1000000  # 1000 KB
 NUM = 'NUM'
 
-MODELS = 'models/'
-DATASET = 'dataset/'
-STOPWORDS_MODEL_FILENAME = MODELS + 'stopwords'
+MODELS = os.path.join(os.getcwd(), 'models')
+DATASET = os.path.join(os.getcwd(), 'dataset')
+STOPWORDS_MODEL_FILENAME = os.path.join(MODELS, 'stopwords')
 
 logging.basicConfig(filename=LOG_FILENAME, level=LOG_LEVEL, format='%(levelname)s | %(asctime)s %(message)s',
                     datefmt='%m/%d/%Y %I:%M:%S %p', filemode='wt')
@@ -332,6 +331,12 @@ class Vocabulary(Model):
         if len(args) != 0:
             self.__populate_words_balanced()
 
+    def __eq__(self, other):
+        if not isinstance(other, Vocabulary):
+            return False
+
+        return self.label == other.label
+
     def tf_idf(self, word, tf):
         '''
         :param tf: Term Freqeuncy in the current document
@@ -440,6 +445,10 @@ class Classificator(object):
                 0.003)  # Updating threshold and regenerating stopwords dictionary (this value deletes nonsignificant words
         return stopwords_model
 
+    @staticmethod
+    def init_stopwords_default():
+        Classificator.init_stopwords(STOPWORDS_MODEL_FILENAME)  # Initializing stopwords class
+
 
 class LabelledText(AbstractText):
     def __init__(self, text='', vocabularies_list=list(), *args, **kwargs):
@@ -482,8 +491,8 @@ def main():  # Test function
 
     Classificator.init_stopwords(STOPWORDS_MODEL_FILENAME)  # Initializing stopwords class
 
-    happiness_vocabulary = Vocabulary.load(MODELS + 'happiness_vocabulary')
-    sadness_vocabulary = Vocabulary.load(MODELS + 'sadness_vocabulary')
+    happiness_vocabulary = Vocabulary.load(os.path.join(MODELS, 'happiness_vocabulary'))
+    sadness_vocabulary = Vocabulary.load(os.path.join(MODELS, 'sadness_vocabulary'))
 
     l = LabelledText("Today is a gorgeous day, the sun is shining and the sky is blue",
                      [happiness_vocabulary, sadness_vocabulary], cleaning_level=HIGH, fast=True)
@@ -492,6 +501,8 @@ def main():  # Test function
     l = LabelledText("Nobody cares for me, I'm worthless", [happiness_vocabulary, sadness_vocabulary],
                      cleaning_level=HIGH, fast=True)
     print(l.get_label())
+
+
 
 
 if __name__ == "__main__":

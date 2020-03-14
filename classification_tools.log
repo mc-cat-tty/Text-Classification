@@ -1,16 +1,313 @@
-INFO | 03/11/2020 01:44:58 AM RawText object initialized using text starting with "Today..."
-INFO | 03/11/2020 01:44:58 AM Cleaning text at level "50"
-INFO | 03/11/2020 01:44:58 AM CleanedText object initialized using "50" as cleaning level
-INFO | 03/11/2020 01:44:58 AM Cleaning up useless attributes to free memory
-INFO | 03/11/2020 01:44:58 AM Counting words occurrences
-INFO | 03/11/2020 01:44:58 AM Calculating words frequencies with occurrences normalized
-INFO | 03/11/2020 01:44:58 AM AbstractText object initialized
-INFO | 03/11/2020 01:44:58 AM Cleaning up useless attributes to free memory
-INFO | 03/11/2020 01:44:58 AM RawText object initialized using text starting with "I fea..."
-INFO | 03/11/2020 01:44:58 AM Cleaning text at level "50"
-INFO | 03/11/2020 01:44:58 AM CleanedText object initialized using "50" as cleaning level
-INFO | 03/11/2020 01:44:58 AM Cleaning up useless attributes to free memory
-INFO | 03/11/2020 01:44:58 AM Counting words occurrences
-INFO | 03/11/2020 01:44:58 AM Calculating words frequencies with occurrences normalized
-INFO | 03/11/2020 01:44:58 AM AbstractText object initialized
-INFO | 03/11/2020 01:44:58 AM Cleaning up useless attributes to free memory
+ERROR | 03/14/2020 10:34:28 PM File "C:/Users/Francesco/Desktop/Text Classification/classification_tools.log" could not be opened
+INFO | 03/14/2020 10:35:08 PM RawText object initialized using text starting with "Today..."
+INFO | 03/14/2020 10:35:08 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:35:08 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:35:08 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:35:08 PM Counting words occurrences
+INFO | 03/14/2020 10:35:08 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:35:08 PM AbstractText object initialized
+INFO | 03/14/2020 10:35:08 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:35:24 PM RawText object initialized using text starting with "Nobod..."
+INFO | 03/14/2020 10:35:24 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:35:24 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:35:24 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:35:24 PM Counting words occurrences
+INFO | 03/14/2020 10:35:24 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:35:24 PM AbstractText object initialized
+INFO | 03/14/2020 10:35:24 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:35:41 PM RawText object initialized using text starting with "I hav..."
+INFO | 03/14/2020 10:35:41 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:35:41 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:35:41 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:35:41 PM Counting words occurrences
+INFO | 03/14/2020 10:35:41 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:35:41 PM AbstractText object initialized
+INFO | 03/14/2020 10:35:41 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:35:43 PM RawText object initialized using text starting with "I hav..."
+INFO | 03/14/2020 10:35:43 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:35:43 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:35:43 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:35:43 PM Counting words occurrences
+INFO | 03/14/2020 10:35:43 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:35:43 PM AbstractText object initialized
+INFO | 03/14/2020 10:35:43 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:35:53 PM RawText object initialized using text starting with "I fee..."
+INFO | 03/14/2020 10:35:53 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:35:53 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:35:53 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:35:53 PM Counting words occurrences
+INFO | 03/14/2020 10:35:53 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:35:53 PM AbstractText object initialized
+INFO | 03/14/2020 10:35:53 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:36:00 PM RawText object initialized using text starting with "I hav..."
+INFO | 03/14/2020 10:36:00 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:36:00 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:36:00 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:36:00 PM Counting words occurrences
+INFO | 03/14/2020 10:36:00 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:36:00 PM AbstractText object initialized
+INFO | 03/14/2020 10:36:00 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:36:13 PM RawText object initialized using text starting with "I fee..."
+INFO | 03/14/2020 10:36:13 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:36:13 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:36:13 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:36:13 PM Counting words occurrences
+INFO | 03/14/2020 10:36:13 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:36:13 PM AbstractText object initialized
+INFO | 03/14/2020 10:36:13 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:36:51 PM RawText object initialized using text starting with "I fee..."
+INFO | 03/14/2020 10:36:51 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:36:51 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:36:51 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:36:51 PM Counting words occurrences
+INFO | 03/14/2020 10:36:51 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:36:51 PM AbstractText object initialized
+INFO | 03/14/2020 10:36:51 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:36:51 PM RawText object initialized using text starting with "I fee..."
+INFO | 03/14/2020 10:36:51 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:36:51 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:36:51 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:36:51 PM Counting words occurrences
+INFO | 03/14/2020 10:36:51 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:36:51 PM AbstractText object initialized
+INFO | 03/14/2020 10:36:51 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:36:52 PM RawText object initialized using text starting with "I fee..."
+INFO | 03/14/2020 10:36:52 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:36:52 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:36:52 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:36:52 PM Counting words occurrences
+INFO | 03/14/2020 10:36:52 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:36:52 PM AbstractText object initialized
+INFO | 03/14/2020 10:36:52 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:37:07 PM RawText object initialized using text starting with "I fee..."
+INFO | 03/14/2020 10:37:07 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:37:07 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:37:07 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:37:07 PM Counting words occurrences
+INFO | 03/14/2020 10:37:07 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:37:07 PM AbstractText object initialized
+INFO | 03/14/2020 10:37:07 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:37:07 PM RawText object initialized using text starting with "I fee..."
+INFO | 03/14/2020 10:37:07 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:37:07 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:37:07 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:37:07 PM Counting words occurrences
+INFO | 03/14/2020 10:37:07 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:37:07 PM AbstractText object initialized
+INFO | 03/14/2020 10:37:07 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:37:08 PM RawText object initialized using text starting with "I fee..."
+INFO | 03/14/2020 10:37:08 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:37:08 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:37:08 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:37:08 PM Counting words occurrences
+INFO | 03/14/2020 10:37:08 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:37:08 PM AbstractText object initialized
+INFO | 03/14/2020 10:37:08 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:37:08 PM RawText object initialized using text starting with "I fee..."
+INFO | 03/14/2020 10:37:08 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:37:08 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:37:08 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:37:08 PM Counting words occurrences
+INFO | 03/14/2020 10:37:08 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:37:08 PM AbstractText object initialized
+INFO | 03/14/2020 10:37:08 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:37:22 PM RawText object initialized using text starting with "I fee..."
+INFO | 03/14/2020 10:37:22 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:37:22 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:37:22 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:37:22 PM Counting words occurrences
+INFO | 03/14/2020 10:37:22 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:37:22 PM AbstractText object initialized
+INFO | 03/14/2020 10:37:22 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:37:38 PM RawText object initialized using text starting with "I fee..."
+INFO | 03/14/2020 10:37:38 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:37:38 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:37:38 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:37:38 PM Counting words occurrences
+INFO | 03/14/2020 10:37:38 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:37:38 PM AbstractText object initialized
+INFO | 03/14/2020 10:37:38 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:38:15 PM RawText object initialized using text starting with "i got..."
+INFO | 03/14/2020 10:38:15 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:38:15 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:38:15 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:38:15 PM Counting words occurrences
+INFO | 03/14/2020 10:38:15 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:38:15 PM AbstractText object initialized
+INFO | 03/14/2020 10:38:15 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:38:16 PM RawText object initialized using text starting with "i got..."
+INFO | 03/14/2020 10:38:16 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:38:16 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:38:16 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:38:16 PM Counting words occurrences
+INFO | 03/14/2020 10:38:16 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:38:16 PM AbstractText object initialized
+INFO | 03/14/2020 10:38:16 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:38:16 PM RawText object initialized using text starting with "i got..."
+INFO | 03/14/2020 10:38:16 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:38:16 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:38:16 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:38:16 PM Counting words occurrences
+INFO | 03/14/2020 10:38:16 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:38:16 PM AbstractText object initialized
+INFO | 03/14/2020 10:38:16 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:38:35 PM RawText object initialized using text starting with "it's ..."
+INFO | 03/14/2020 10:38:35 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:38:35 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:38:35 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:38:35 PM Counting words occurrences
+INFO | 03/14/2020 10:38:35 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:38:35 PM AbstractText object initialized
+INFO | 03/14/2020 10:38:35 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:38:35 PM RawText object initialized using text starting with "it's ..."
+INFO | 03/14/2020 10:38:35 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:38:35 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:38:35 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:38:35 PM Counting words occurrences
+INFO | 03/14/2020 10:38:35 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:38:35 PM AbstractText object initialized
+INFO | 03/14/2020 10:38:35 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:38:48 PM RawText object initialized using text starting with "The w..."
+INFO | 03/14/2020 10:38:48 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:38:48 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:38:48 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:38:48 PM Counting words occurrences
+INFO | 03/14/2020 10:38:48 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:38:48 PM AbstractText object initialized
+INFO | 03/14/2020 10:38:48 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:38:48 PM RawText object initialized using text starting with "The w..."
+INFO | 03/14/2020 10:38:48 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:38:48 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:38:48 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:38:48 PM Counting words occurrences
+INFO | 03/14/2020 10:38:48 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:38:48 PM AbstractText object initialized
+INFO | 03/14/2020 10:38:48 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:38:49 PM RawText object initialized using text starting with "The w..."
+INFO | 03/14/2020 10:38:49 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:38:49 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:38:49 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:38:49 PM Counting words occurrences
+INFO | 03/14/2020 10:38:49 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:38:49 PM AbstractText object initialized
+INFO | 03/14/2020 10:38:49 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:39:07 PM RawText object initialized using text starting with "I had..."
+INFO | 03/14/2020 10:39:07 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:39:07 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:39:07 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:39:07 PM Counting words occurrences
+INFO | 03/14/2020 10:39:07 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:39:07 PM AbstractText object initialized
+INFO | 03/14/2020 10:39:07 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:39:10 PM RawText object initialized using text starting with "I had..."
+INFO | 03/14/2020 10:39:10 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:39:10 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:39:10 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:39:10 PM Counting words occurrences
+INFO | 03/14/2020 10:39:10 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:39:10 PM AbstractText object initialized
+INFO | 03/14/2020 10:39:10 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:39:17 PM RawText object initialized using text starting with "I had..."
+INFO | 03/14/2020 10:39:17 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:39:17 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:39:17 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:39:17 PM Counting words occurrences
+INFO | 03/14/2020 10:39:17 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:39:17 PM AbstractText object initialized
+INFO | 03/14/2020 10:39:17 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:39:37 PM RawText object initialized using text starting with "I had..."
+INFO | 03/14/2020 10:39:37 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:39:37 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:39:37 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:39:37 PM Counting words occurrences
+INFO | 03/14/2020 10:39:37 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:39:37 PM AbstractText object initialized
+INFO | 03/14/2020 10:39:37 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:39:51 PM RawText object initialized using text starting with "I had..."
+INFO | 03/14/2020 10:39:51 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:39:51 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:39:51 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:39:51 PM Counting words occurrences
+INFO | 03/14/2020 10:39:51 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:39:51 PM AbstractText object initialized
+INFO | 03/14/2020 10:39:51 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:39:52 PM RawText object initialized using text starting with "I had..."
+INFO | 03/14/2020 10:39:52 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:39:52 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:39:52 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:39:52 PM Counting words occurrences
+INFO | 03/14/2020 10:39:52 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:39:52 PM AbstractText object initialized
+INFO | 03/14/2020 10:39:52 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:39:59 PM RawText object initialized using text starting with "I had..."
+INFO | 03/14/2020 10:39:59 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:39:59 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:39:59 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:39:59 PM Counting words occurrences
+INFO | 03/14/2020 10:39:59 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:39:59 PM AbstractText object initialized
+INFO | 03/14/2020 10:39:59 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:40:04 PM RawText object initialized using text starting with "I had..."
+INFO | 03/14/2020 10:40:04 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:40:04 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:40:04 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:40:04 PM Counting words occurrences
+INFO | 03/14/2020 10:40:04 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:40:04 PM AbstractText object initialized
+INFO | 03/14/2020 10:40:04 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:40:05 PM RawText object initialized using text starting with "I had..."
+INFO | 03/14/2020 10:40:05 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:40:05 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:40:05 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:40:05 PM Counting words occurrences
+INFO | 03/14/2020 10:40:05 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:40:05 PM AbstractText object initialized
+INFO | 03/14/2020 10:40:05 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:40:08 PM RawText object initialized using text starting with "I had..."
+INFO | 03/14/2020 10:40:08 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:40:08 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:40:08 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:40:08 PM Counting words occurrences
+INFO | 03/14/2020 10:40:08 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:40:08 PM AbstractText object initialized
+INFO | 03/14/2020 10:40:08 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:40:17 PM RawText object initialized using text starting with "I had..."
+INFO | 03/14/2020 10:40:17 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:40:17 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:40:17 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:40:17 PM Counting words occurrences
+INFO | 03/14/2020 10:40:17 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:40:17 PM AbstractText object initialized
+INFO | 03/14/2020 10:40:17 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:40:23 PM RawText object initialized using text starting with "I had..."
+INFO | 03/14/2020 10:40:23 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:40:23 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:40:23 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:40:23 PM Counting words occurrences
+INFO | 03/14/2020 10:40:23 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:40:23 PM AbstractText object initialized
+INFO | 03/14/2020 10:40:23 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:40:34 PM RawText object initialized using text starting with "I had..."
+INFO | 03/14/2020 10:40:34 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:40:34 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:40:34 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:40:34 PM Counting words occurrences
+INFO | 03/14/2020 10:40:34 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:40:34 PM AbstractText object initialized
+INFO | 03/14/2020 10:40:34 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:40:35 PM RawText object initialized using text starting with "I had..."
+INFO | 03/14/2020 10:40:35 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:40:35 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:40:35 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:40:35 PM Counting words occurrences
+INFO | 03/14/2020 10:40:35 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:40:35 PM AbstractText object initialized
+INFO | 03/14/2020 10:40:35 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:40:35 PM RawText object initialized using text starting with "I had..."
+INFO | 03/14/2020 10:40:35 PM Cleaning text at level "50"
+INFO | 03/14/2020 10:40:35 PM CleanedText object initialized using "50" as cleaning level
+INFO | 03/14/2020 10:40:35 PM Cleaning up useless attributes to free memory
+INFO | 03/14/2020 10:40:35 PM Counting words occurrences
+INFO | 03/14/2020 10:40:35 PM Calculating words frequencies with occurrences normalized
+INFO | 03/14/2020 10:40:35 PM AbstractText object initialized
+INFO | 03/14/2020 10:40:35 PM Cleaning up useless attributes to free memory
