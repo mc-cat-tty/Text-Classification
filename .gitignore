@@ -15,6 +15,8 @@ dataset/Sadness/*
 
 dataset/Joy/*
 
+__pycache__/*
+
 venv/*
 .idea/*
 .git/*

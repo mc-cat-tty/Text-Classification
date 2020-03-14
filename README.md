@@ -8,5 +8,5 @@ Natural Language Processing in Python
 
 ### Requirements
 
-`nltk`
 `spacy`
+`PyQt5`
