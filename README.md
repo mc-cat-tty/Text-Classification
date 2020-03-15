@@ -34,17 +34,17 @@ Natural Language Processing in Python
   If you are in Bash-like environment with Python installed, you can run directly by typing:
 
   ```sh
-  $ ./Main.py
+  $ ./gui.py
   ```
 
   Otherwise, depending on your Python interpreter installation and your OS:
 
   ```sh
-  $ python Main.py
+  $ python gui.py
   ```
   or
   ```sh
-  $ py Main.py
+  $ py gui.py
   ```
 3. Go to "Models->Add"
 4. Select "happiness_vocabulary" (inside /models/ folder) and Load this model
