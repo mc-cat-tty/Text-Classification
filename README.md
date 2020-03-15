@@ -59,7 +59,7 @@ Natural Language Processing in Python
 
 ### Samples
 
-![Sample1](Sample1.png) ![Sample2](Sample2.png) ![Sample3](Sample3.png)
+![Sample1](Sample1.png | width=100) ![Sample2](Sample2.png) ![Sample3](Sample3.png)
 
 ## Authors
 
