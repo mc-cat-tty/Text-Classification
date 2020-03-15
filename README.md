@@ -37,6 +37,7 @@ Natural Language Processing in Python
   $ py -m spacy download en_core_web_sm
   ```
 2. Launch gui.py
+  <br>
   If you are in Bash-like environment with Python installed, you can run directly by typing:
 
   ```sh
