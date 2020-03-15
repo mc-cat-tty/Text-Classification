@@ -59,7 +59,10 @@ Natural Language Processing in Python
 
 ### Samples
 
-<img src="Sample1.png" width=100> <img src="Sample2.png" width=100> <img src="Sample3.png" width=100>
+<img src="Sample1.png" width=500 style="border: 1px solid #f6f8fa">
+<img src="Sample2.png" width=500 style="border: 1px solid #f6f8fa">
+<img src="Sample3.png" width=500 style="border: 1px solid #f6f8fa">
+
 ## Authors
 
  - Francesco Mecatti - I.T.I.S Enrico Fermi - Italy, Modena
