@@ -59,9 +59,9 @@ Natural Language Processing in Python
 
 ### Samples
 
-<img src="Sample1.png" width=500 style="border: 1px solid #f6f8fa">
-<img src="Sample2.png" width=500 style="border: 1px solid #f6f8fa">
-<img src="Sample3.png" width=500 style="border: 1px solid #f6f8fa">
+<kdb><img src="Sample1.png" width=500 /></kdb>
+<kdb><img src="Sample2.png" width=500 /></kdb>
+<kdb><img src="Sample3.png" width=500 /></kdb>
 
 ## Authors
 
