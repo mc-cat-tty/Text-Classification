@@ -59,8 +59,7 @@ Natural Language Processing in Python
 
 ### Samples
 
-![Sample1](Sample1.png | width=100) ![Sample2](Sample2.png) ![Sample3](Sample3.png)
-
+<img src="Sample1.png" width=100> <img src="Sample2.png" width=100> <img src="Sample3.png" width=100>
 ## Authors
 
  - Francesco Mecatti - I.T.I.S Enrico Fermi - Italy, Modena
