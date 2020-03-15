@@ -28,7 +28,7 @@ Natural Language Processing in Python
 `PyQt5`
 `en_core_web_sm`
 
-### How to test if all work properly?
+### How to test if everything works properly?
 
 1. Install Requirements
   ```sh
