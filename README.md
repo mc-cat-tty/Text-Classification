@@ -26,10 +26,16 @@ Natural Language Processing in Python
 
 `spacy`
 `PyQt5`
+`en_core_web_sm`
 
 ### How to test if all work properly?
 
 1. Install Requirements
+  ```sh
+  $ py -m pip install PyQt5
+  $ py -m pip install spacy
+  $ py -m spacy download en_core_web_sm
+  ```
 2. Launch gui.py
   If you are in Bash-like environment with Python installed, you can run directly by typing:
 
@@ -50,6 +56,10 @@ Natural Language Processing in Python
 4. Select "happiness_vocabulary" (inside /models/ folder) and Load this model
 5. Select "sadness_vocabulary" (inside /models/ folder) and Load this model
 6. Go to "Classify->Start Classification", insert a text and press "Classify Text"
+
+### Samples
+
+![Sample1](Sample1.png) | ![Sample2](Sample2.png) | ![Sample3](Sample3.png)
 
 ## Authors
 
