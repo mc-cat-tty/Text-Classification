@@ -389,7 +389,7 @@ class Classificator(object):
         logging.info('Starting stopwords training')
         s = Stopwords()
         for filename in os.listdir(dataset_directory):
-            a = AbstractText.from_text_file(dataset_directory + filename, cleaning_level=MEDIUM, fast=True)
+            a = AbstractText.from_text_file(os.path.join(dataset_directory, filename), cleaning_level=MEDIUM, fast=True)
             s.add(a)
         s.train()
         s.save(model_filename)
@@ -401,7 +401,7 @@ class Classificator(object):
         logging.info('Starting stopwords training')
         s = old_model
         for filename in os.listdir(dataset_directory):
-            a = AbstractText.from_text_file(dataset_directory + filename, cleaning_level=MEDIUM, fast=True)
+            a = AbstractText.from_text_file(os.path.join(dataset_directory, filename), cleaning_level=MEDIUM, fast=True)
             s.add(a)
         s.train()
         s.save(new_model_filename)
@@ -413,7 +413,7 @@ class Classificator(object):
         logging.info('Starting {} vocabulary training'.format(label))
         v = Vocabulary(label, stopwords_model)
         for filename in os.listdir(dataset_directory):
-            a = AbstractText.from_text_file(dataset_directory + filename, cleaning_level=HIGH, fast=True)
+            a = AbstractText.from_text_file(os.path.join(dataset_directory, filename), cleaning_level=HIGH, fast=True)
             v.add(a)
         v.train()
         v.save(model_filename)
@@ -425,7 +425,7 @@ class Classificator(object):
         logging.info('Starting {} vocabulary training'.format(old_model.label))
         v = old_model
         for filename in os.listdir(dataset_directory):
-            a = AbstractText.from_text_file(dataset_directory + filename, cleaning_level=HIGH, fast=True)
+            a = AbstractText.from_text_file(os.path.join(dataset_directory, filename), cleaning_level=HIGH, fast=True)
             v.add(a)
         v.train()
         v.save(new_model_filename)
@@ -477,17 +477,17 @@ class LabelledText(AbstractText):
 
 
 def main():  # Test function
-    # Classificator.train_stopwords_and_save_model(DATASET + 'Canadian_Parliament_Debates/',
-    #                                              MODELS + 'stopwords_old')  # Instruction to train new stopwords model
-    # s = Stopwords.load(MODELS + 'stopwords_old')
-    # Classificator.train_stopwords_starting_from_model_and_save_new_model(s, DATASET + "Reuters/",
-    #                                                                      MODELS + 'stopwords')  # Instruction to reinforce already existing model
+    # Classificator.train_stopwords_and_save_model(os.path.join(DATASET, 'Canadian_Parliament_Debates'),
+    #                                              os.path.join(MODELS, 'stopwords_old'))  # Instruction to train new stopwords model
+    # s = Stopwords.load(os.path.join(MODELS, 'stopwords_old'))
+    # Classificator.train_stopwords_starting_from_model_and_save_new_model(s, os.path.join(DATASET, "Joy"),
+    #                                                                      os.path.join(MODELS, 'stopwords'))  # Instruction to reinforce already existing model
     # s = Classificator.init_stopwords(STOPWORDS_MODEL_FILENAME)
-    # Classificator.train_vocabulary_and_save_model("happiness", s, DATASET + 'Happiness/',
-    #                                               MODELS + 'happiness_vocabulary')
-    # Classificator.train_stopwords_starting_from_model_and_save_new_model(s, DATASET + "Reviews/",
-    #                                                                      MODELS + 'stopwords')  # Instruction to reinforce already existing model
-    # Classificator.train_vocabulary_and_save_model('sadness', s, DATASET + 'Sadness/', MODELS + 'sadness_vocabulary')
+    # Classificator.train_vocabulary_and_save_model("happiness", s, os.path.join(DATASET, 'Happiness/'),
+    #                                               os.path.join(MODELS, 'happiness_vocabulary'))
+    # Classificator.train_stopwords_starting_from_model_and_save_new_model(s, os.path.join(DATASET, "Reviews/"),
+    #                                                                      os.path.join(MODELS, 'stopwords'))  # Instruction to reinforce already existing model
+    # Classificator.train_vocabulary_and_save_model('sadness', s, os.path.join(DATASET, 'Sadness/'), os.path.join(MODELS, 'sadness_vocabulary'))
 
     Classificator.init_stopwords(STOPWORDS_MODEL_FILENAME)  # Initializing stopwords class
 

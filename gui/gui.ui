@@ -520,13 +520,15 @@ height: 8px;</string>
       <rect>
        <x>310</x>
        <y>360</y>
-       <width>171</width>
+       <width>181</width>
        <height>51</height>
       </rect>
      </property>
      <property name="font">
       <font>
        <pointsize>-1</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
       </font>
      </property>
      <property name="cursor">
@@ -543,8 +545,7 @@ height: 8px;</string>
 font-size: 16px;
 background-color: rgb(0, 119, 255);
 border: 0px solid;
-border-radius: 10px;
-padding: 13px 35px;</string>
+border-radius: 10px;</string>
      </property>
      <property name="text">
       <string>Classify Text</string>
@@ -576,7 +577,6 @@ padding: 13px 35px;</string>
      </property>
      <property name="font">
       <font>
-       <family>Arial</family>
        <pointsize>-1</pointsize>
       </font>
      </property>
@@ -611,7 +611,6 @@ padding: 16px 24px;</string>
      </property>
      <property name="font">
       <font>
-       <family>Arial</family>
        <pointsize>-1</pointsize>
       </font>
      </property>
@@ -647,7 +646,7 @@ font-size: 22px;</string>
       <rect>
        <x>310</x>
        <y>360</y>
-       <width>171</width>
+       <width>181</width>
        <height>51</height>
       </rect>
      </property>
@@ -672,8 +671,7 @@ font-size: 22px;</string>
 font-size: 16px;
 background-color: rgb(0, 119, 255);
 border: 0px solid;
-border-radius: 10px;
-padding: 13px 35px;</string>
+border-radius: 10px;</string>
      </property>
      <property name="text">
       <string>Load Model</string>
