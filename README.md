@@ -25,13 +25,15 @@ Natural Language Processing in Python
 ### Requirements
 
 `spacy`
-`PyQt5`
 `en_core_web_sm`
+`PyQt5`
+`matplotlib`
 
 ### How to test if everything works properly?
 
 1. Install Requirements
   ```sh
+  $ py -m pip install matplotlib
   $ py -m pip install PyQt5
   $ py -m pip install spacy
   $ py -m spacy download en_core_web_sm

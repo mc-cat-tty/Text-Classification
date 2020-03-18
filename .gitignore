@@ -15,6 +15,12 @@ dataset/Sadness/*
 
 dataset/Joy/*
 
+dataset/Test/Happiness/*
+!dataset/Test/Happiness/40.txt
+
+dataset/Test/Sadness/*
+!dataset/Test/Sadness/2.txt
+
 __pycache__/*
 
 venv/*
