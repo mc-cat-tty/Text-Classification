@@ -494,11 +494,11 @@ def main():  # Test function
     happiness_vocabulary = Vocabulary.load(os.path.join(MODELS, 'happiness_vocabulary'))
     sadness_vocabulary = Vocabulary.load(os.path.join(MODELS, 'sadness_vocabulary'))
 
-    l = LabelledText("Today is a gorgeous day, the sun is shining and the sky is blue",
+    l = LabelledText("Today is a gorgeous day, the sun is shining and the sky is blue.",
                      [happiness_vocabulary, sadness_vocabulary], cleaning_level=HIGH, fast=True)
     print(l.get_label())
 
-    l = LabelledText("Nobody cares for me, I'm worthless", [happiness_vocabulary, sadness_vocabulary],
+    l = LabelledText("Nobody cares for me, I'm worthless.", [happiness_vocabulary, sadness_vocabulary],
                      cleaning_level=HIGH, fast=True)
     print(l.get_label())
 

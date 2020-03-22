@@ -16,12 +16,14 @@ dataset/Sadness/*
 dataset/Joy/*
 
 dataset/Test/Happiness/*
-!dataset/Test/Happiness/40.txt
+!dataset/Test/Happiness/19.txt
 
 dataset/Test/Sadness/*
-!dataset/Test/Sadness/2.txt
+!dataset/Test/Sadness/0.txt
 
 __pycache__/*
+
+Test_Phrases.txt
 
 venv/*
 .idea/*
