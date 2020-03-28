@@ -378,7 +378,7 @@ class Vocabulary(Model):
         for word, weight in self.words_balanced.items():
             if word in abstract_text.words_set:
                 score += weight * abstract_text.words_freq[word]
-        return score / self.union_dim
+        return score
 
 
 class Classificator(object):
