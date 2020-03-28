@@ -33,24 +33,17 @@ Natural Language Processing in Python
 
 1. Install Requirements
   ```sh
-  $ py -m pip install matplotlib
-  $ py -m pip install PyQt5
-  $ py -m pip install spacy
+  $ py -m pip install -r requirements.txt
   $ py -m spacy download en_core_web_sm
   ```
 2. Launch *gui.py*.
-  If you are in Bash-like environment with Python installed, you can run directly by typing:
-
-  ```sh
-  $ ./gui.py
-  ```
-
-  Otherwise, depending on your Python interpreter installation and your OS:
+  Depending on your Python interpreter installation and your OS:
 
   ```sh
   $ python gui.py
   ```
   or
+
   ```sh
   $ py gui.py
   ```
