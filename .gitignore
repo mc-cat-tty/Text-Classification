@@ -24,7 +24,6 @@ dataset/Test/Sadness/*
 __pycache__/*
 
 Test_Phrases.txt
-classification_tools.log
 
 venv/*
 .idea/*
