@@ -1,4 +1,4 @@
-# Text-Classification
+# Text Classification
 Natural Language Processing in Python
 
 
