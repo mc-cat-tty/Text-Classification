@@ -63,4 +63,4 @@ Natural Language Processing in Python
  - Francesco Mecatti - I.T.I.S Enrico Fermi - Italy, Modena
 
 ## License
-This project is licensed under the MIT license - see the [LICENSE](LICEBSE) file for details
+This project is licensed under the MIT license - see the [LICENSE](LICENSE) file for details
